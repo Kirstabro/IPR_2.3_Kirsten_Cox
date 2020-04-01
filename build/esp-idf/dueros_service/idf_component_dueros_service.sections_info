@@ -1,0 +1,156 @@
+In archive C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/esp-idf/dueros_service/libdueros_service.a:
+
+dueros_service.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.report_info_task 00000018  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.dueros_task 000000fc  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.duer_que_send$constprop$0 00000008  00000000  00000000  00000148  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.dueros_destroy 00000008  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.dueros_disconnect 00000008  00000000  00000000  00000158  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.dueros_connect 00000008  00000000  00000000  00000160  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.dueros_stop 00000008  00000000  00000000  00000168  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.dueros_start 00000008  00000000  00000000  00000170  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.duer_event_hook 00000084  00000000  00000000  00000178  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.dueros_service_state_get 00000008  00000000  00000000  000001fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.dueros_service_create 00000030  00000000  00000000  00000204  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text         00000000  00000000  00000000  00000234  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 12 .data         00000000  00000000  00000000  00000234  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 13 .bss          00000000  00000000  00000000  00000234  2**0
+                  ALLOC
+ 14 .rodata.str1.1 0000035f  00000000  00000000  00000234  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 15 .text.report_info_task 00000032  00000000  00000000  00000594  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.dueros_task 0000029a  00000000  00000000  000005c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.duer_que_send$constprop$0 00000022  00000000  00000000  00000864  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.dueros_destroy 0000001a  00000000  00000000  00000888  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.dueros_disconnect 0000001a  00000000  00000000  000008a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.dueros_connect 0000001a  00000000  00000000  000008c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.dueros_stop 0000001a  00000000  00000000  000008dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.dueros_start 0000001a  00000000  00000000  000008f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.duer_event_hook 00000124  00000000  00000000  00000914  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.dueros_service_state_get 00000012  00000000  00000000  00000a38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.dueros_service_create 000000a5  00000000  00000000  00000a4c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .data.is_first_time$9900 00000001  00000000  00000000  00000af1  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 27 .bss.duer_msg$9921 00000010  00000000  00000000  00000af4  2**2
+                  ALLOC
+ 28 .rodata.__func__$9919 0000000c  00000000  00000000  00000af4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .bss.duer_serv_handle 00000004  00000000  00000000  00000b00  2**2
+                  ALLOC
+ 30 .bss.duer_login_success 00000001  00000000  00000000  00000b00  2**0
+                  ALLOC
+ 31 .debug_frame  00000118  00000000  00000000  00000b00  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_info   0000194b  00000000  00000000  00000c18  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 33 .debug_abbrev 000003af  00000000  00000000  00002563  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 34 .debug_loc    00000283  00000000  00000000  00002912  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_aranges 00000070  00000000  00000000  00002b95  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 36 .debug_ranges 00000078  00000000  00000000  00002c05  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 37 .debug_line   000008f2  00000000  00000000  00002c7d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_str    00000fc6  00000000  00000000  0000356f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 39 .comment      0000003c  00000000  00000000  00004535  2**0
+                  CONTENTS, READONLY
+ 40 .xtensa.info  00000038  00000000  00000000  00004571  2**0
+                  CONTENTS, READONLY
+ 41 .xt.lit       00000058  00000000  00000000  000045a9  2**0
+                  CONTENTS, RELOC, READONLY
+ 42 .xt.prop      00000390  00000000  00000000  00004601  2**0
+                  CONTENTS, RELOC, READONLY
+
+esp_audio_device_info.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.get_firmware_version 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.duer_init_device_info 00000018  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .text         00000000  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .data         00000000  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .bss          00000000  00000000  00000000  00000054  2**0
+                  ALLOC
+  5 .rodata.str1.1 0000004e  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 .text.get_firmware_version 00000014  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text.duer_init_device_info 0000002c  00000000  00000000  000000b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .data.dev_info_ops 00000004  00000000  00000000  000000e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+  9 .rodata.g_system_static_info 00000074  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .debug_frame  00000040  00000000  00000000  0000015c  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 11 .debug_info   000002a0  00000000  00000000  0000019c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 12 .debug_abbrev 00000164  00000000  00000000  0000043c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_loc    00000040  00000000  00000000  000005a0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_aranges 00000028  00000000  00000000  000005e0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_ranges 00000018  00000000  00000000  00000608  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_line   000001e7  00000000  00000000  00000620  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_str    00000336  00000000  00000000  00000807  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 18 .comment      0000003c  00000000  00000000  00000b3d  2**0
+                  CONTENTS, READONLY
+ 19 .xtensa.info  00000038  00000000  00000000  00000b79  2**0
+                  CONTENTS, READONLY
+ 20 .xt.lit       00000010  00000000  00000000  00000bb1  2**0
+                  CONTENTS, RELOC, READONLY
+ 21 .xt.prop      00000084  00000000  00000000  00000bc1  2**0
+                  CONTENTS, RELOC, READONLY
+
+duer_profile.S.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .rodata.embedded 00000004  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 .xtensa.info  00000038  00000000  00000000  00000038  2**0
+                  CONTENTS, READONLY

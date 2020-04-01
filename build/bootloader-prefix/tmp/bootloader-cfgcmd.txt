@@ -1,0 +1,1 @@
+cmd='C:/Users/kjcox/.espressif/tools/cmake/3.13.4/bin/cmake.exe;-DSDKCONFIG=C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/sdkconfig;-DIDF_PATH=C:/esp/esp-adf/esp-idf;-DSECURE_BOOT_SIGNING_KEY=C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline;-DEXTRA_COMPONENT_DIRS=C:/esp/esp-adf/esp-idf/components/bootloader;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

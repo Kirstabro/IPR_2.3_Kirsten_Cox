@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/CMakeFiles/bootloader
+C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/CMakeFiles/bootloader.rule
+C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/CMakeFiles/bootloader-complete.rule
+C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

@@ -1,0 +1,78 @@
+In archive C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/esp-idf/main/libmain.a:
+
+parrot_main.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.goertzel_callback 00000014  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.reset_to_record 00000024  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.reset_to_play 00000024  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.reset_to_detect 00000024  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.run_parrot_pipeline 00000228  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.app_main 00000058  00000000  00000000  000002dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .text         00000000  00000000  00000000  00000334  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .data         00000000  00000000  00000000  00000334  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  8 .bss          00000000  00000000  00000000  00000334  2**0
+                  ALLOC
+  9 .text.goertzel_callback 00000042  00000000  00000000  00000334  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .rodata.str1.1 000003b5  00000000  00000000  00000376  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 11 .rodata       000000b0  00000000  00000000  0000072c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 12 .text.reset_to_record 00000050  00000000  00000000  000007dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.reset_to_play 00000050  00000000  00000000  0000082c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.reset_to_detect 00000050  00000000  00000000  0000087c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.run_parrot_pipeline 000006af  00000000  00000000  000008cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.app_main 0000009c  00000000  00000000  00000f7c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .rodata.__func__$11797 00000009  00000000  00000000  00001018  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .bss.record   00000001  00000000  00000000  00001021  2**0
+                  ALLOC
+ 19 .data.start_up 00000001  00000000  00000000  00001021  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 20 .bss.parrot_pipeline 00000004  00000000  00000000  00001024  2**2
+                  ALLOC
+ 21 .bss.evt      00000004  00000000  00000000  00001024  2**2
+                  ALLOC
+ 22 .bss.set      00000004  00000000  00000000  00001024  2**2
+                  ALLOC
+ 23 .rodata.GOERTZEL_DETECT_FREQUENCIES 00000010  00000000  00000000  00001024  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 24 .debug_frame  000000a0  00000000  00000000  00001034  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_info   00001e25  00000000  00000000  000010d4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_abbrev 000002bc  00000000  00000000  00002ef9  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 27 .debug_loc    00000169  00000000  00000000  000031b5  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_aranges 00000048  00000000  00000000  0000331e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_ranges 00000110  00000000  00000000  00003366  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_line   00000b2f  00000000  00000000  00003476  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 31 .debug_str    00001a53  00000000  00000000  00003fa5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 32 .comment      0000003c  00000000  00000000  000059f8  2**0
+                  CONTENTS, READONLY
+ 33 .xtensa.info  00000038  00000000  00000000  00005a34  2**0
+                  CONTENTS, READONLY
+ 34 .xt.lit       00000030  00000000  00000000  00005a6c  2**0
+                  CONTENTS, RELOC, READONLY
+ 35 .xt.prop      000002b8  00000000  00000000  00005a9c  2**0
+                  CONTENTS, RELOC, READONLY

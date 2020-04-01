@@ -1,0 +1,164 @@
+In archive C:/esp/esp-adf/examples/advanced_examples/flexible_pipeline/build/esp-idf/display_service/libdisplay_service.a:
+
+display_service.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.display_service_create 00000030  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.display_service_set_pattern 00000020  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.display_destroy 00000024  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  000000a8  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  000000a8  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  000000a8  2**0
+                  ALLOC
+  6 .rodata.str1.1 0000008c  00000000  00000000  000000a8  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .text.display_service_create 0000009c  00000000  00000000  00000134  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text.display_service_set_pattern 00000054  00000000  00000000  000001d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.display_destroy 00000054  00000000  00000000  00000224  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .rodata.__FUNCTION__$8123 00000010  00000000  00000000  00000278  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 11 .rodata.__FUNCTION__$8117 0000001c  00000000  00000000  00000288  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .rodata.__FUNCTION__$8110 00000017  00000000  00000000  000002a4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .debug_frame  00000058  00000000  00000000  000002bc  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_info   000005c1  00000000  00000000  00000314  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_abbrev 00000188  00000000  00000000  000008d5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .debug_loc    000000cf  00000000  00000000  00000a5d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_aranges 00000030  00000000  00000000  00000b2c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_ranges 00000020  00000000  00000000  00000b5c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_line   0000034f  00000000  00000000  00000b7c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_str    00000468  00000000  00000000  00000ecb  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 21 .comment      0000003c  00000000  00000000  00001333  2**0
+                  CONTENTS, READONLY
+ 22 .xtensa.info  00000038  00000000  00000000  0000136f  2**0
+                  CONTENTS, READONLY
+ 23 .xt.lit       00000018  00000000  00000000  000013a7  2**0
+                  CONTENTS, RELOC, READONLY
+ 24 .xt.prop      000000f0  00000000  00000000  000013bf  2**0
+                  CONTENTS, RELOC, READONLY
+
+led_indicator.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.led_indicator_init 00000030  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.led_indicator_pattern 0000002c  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.led_indicator_deinit 00000020  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  000000b0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  000000b0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  000000b0  2**0
+                  ALLOC
+  6 .rodata.str1.1 000000c8  00000000  00000000  000000b0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .text.led_indicator_init 00000084  00000000  00000000  00000178  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text.led_indicator_pattern 000000c4  00000000  00000000  000001fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.led_indicator_deinit 00000048  00000000  00000000  000002c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .rodata.__FUNCTION__$6026 00000015  00000000  00000000  00000308  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 11 .rodata.__FUNCTION__$6014 00000016  00000000  00000000  0000031d  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .rodata.__FUNCTION__$6007 00000013  00000000  00000000  00000333  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .debug_frame  00000058  00000000  00000000  00000348  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_info   00000764  00000000  00000000  000003a0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_abbrev 000001b6  00000000  00000000  00000b04  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .debug_loc    000000be  00000000  00000000  00000cba  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_aranges 00000030  00000000  00000000  00000d78  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_ranges 00000020  00000000  00000000  00000da8  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_line   000003cd  00000000  00000000  00000dc8  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_str    00000a88  00000000  00000000  00001195  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 21 .comment      0000003c  00000000  00000000  00001c1d  2**0
+                  CONTENTS, READONLY
+ 22 .xtensa.info  00000038  00000000  00000000  00001c59  2**0
+                  CONTENTS, READONLY
+ 23 .xt.lit       00000018  00000000  00000000  00001c91  2**0
+                  CONTENTS, RELOC, READONLY
+ 24 .xt.prop      00000180  00000000  00000000  00001ca9  2**0
+                  CONTENTS, RELOC, READONLY
+
+led_bar_is31x.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.led_bar_is31x_init 00000010  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.led_bar_is31x_pattern 0000006c  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.led_bar_is31x_deinit 00000020  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  000000d0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  000000d0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  000000d0  2**0
+                  ALLOC
+  6 .text.led_bar_is31x_init 0000003e  00000000  00000000  000000d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .rodata.str1.1 000000fc  00000000  00000000  0000010e  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .text.led_bar_is31x_pattern 00000130  00000000  00000000  0000020c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .rodata.led_bar_is31x_pattern 00000054  00000000  00000000  0000033c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 10 .text.led_bar_is31x_deinit 0000004c  00000000  00000000  00000390  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .rodata.__FUNCTION__$5955 00000015  00000000  00000000  000003dc  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .debug_frame  00000058  00000000  00000000  000003f4  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 13 .debug_info   0000075e  00000000  00000000  0000044c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_abbrev 000001c1  00000000  00000000  00000baa  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 15 .debug_loc    00000123  00000000  00000000  00000d6b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_aranges 00000030  00000000  00000000  00000e8e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_ranges 00000020  00000000  00000000  00000ebe  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_line   00000384  00000000  00000000  00000ede  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_str    00000854  00000000  00000000  00001262  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 20 .comment      0000003c  00000000  00000000  00001ab6  2**0
+                  CONTENTS, READONLY
+ 21 .xtensa.info  00000038  00000000  00000000  00001af2  2**0
+                  CONTENTS, READONLY
+ 22 .xt.lit       00000018  00000000  00000000  00001b2a  2**0
+                  CONTENTS, RELOC, READONLY
+ 23 .xt.prop      00000198  00000000  00000000  00001b42  2**0
+                  CONTENTS, RELOC, READONLY
